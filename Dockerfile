@@ -19,4 +19,4 @@ COPY . /app
 RUN mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release -G Ninja && ninja
 
 # Specify the command to launch the application
-CMD ["./build/finance_app"]
+CMD ["./build/fcm"]
